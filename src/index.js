@@ -8,3 +8,4 @@ const query = async function () {
     alert("something went wrong");
   }
 };
+query();
