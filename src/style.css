@@ -3,12 +3,23 @@ body {
   font-size: 62.5%;
   padding: 0;
   margin: 0;
-  background-color: lightgrey;
+  background-color: rgb(246, 242, 230);
+}
+
+.nav {
+  background-color: rgb(175, 42, 42);
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 0.5rem;
+  display: flex;
+  justify-content: center;
 }
 
 .topnav {
   overflow: hidden;
-  background-color: #e9e9e9;
+  background-color: white;
 }
 
 .topnav a {
@@ -16,28 +27,19 @@ body {
   display: block;
   color: black;
   text-align: center;
-  padding: 14px 16px;
+  padding: 20px;
   text-decoration: none;
   font-size: 17px;
-}
-
-.topnav a:hover {
-  background-color: #ddd;
-  color: black;
-}
-
-.topnav a.active {
-  background-color: brown;
-  color: white;
 }
 
 .topnav input[type="text"] {
   float: right;
   padding: 6px;
   border: none;
-  margin-top: 8px;
+  margin-top: 15px;
   margin-right: 16px;
   font-size: 17px;
+  background-color: rgb(221, 221, 221);
 }
 
 @media screen and (max-width: 600px) {
