@@ -23,7 +23,7 @@ const query = async function () {
     });
   } catch (error) {
     console.log(error);
-    alert("hey something went wrong");
+    alert("Hey, something went wrong.");
   }
 };
 query();
