@@ -12,13 +12,10 @@ const query = async function () {
     data.results.forEach((book) => {
       DOMSelectors.grid.insertAdjacentHTML(
         "beforeend",
-        `<div class="book-cover">
-        <img src="" alt="" class="cover">
-    </div>
-    <div class="book-info">
+        `<div class="book-info">
         <h3 class="name">${book.title}</h3>
-        <h4 class="author">${book.author}</h4>
-        <h4 class="description">${book.description}</h4>`
+        <h4 class="author">Written By: ${book.author}</h4>
+        <h4 class="description">Description: ${book.description}</h4>`
       );
     });
   } catch (error) {

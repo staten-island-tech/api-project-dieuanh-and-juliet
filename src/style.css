@@ -57,4 +57,30 @@ body {
   }
 }
 
+.book-grid {
+  padding: 4rem;
+}
+
+.book-info {
+  padding: 2rem;
+}
+
+.name {
+  display: flex;
+  justify-content: center;
+  font-size: 1.5rem;
+}
+
+.author {
+  display: flex;
+  justify-content: center;
+  font-size: 1.2rem;
+}
+
+.description {
+  display: flex;
+  justify-content: center;
+  font-size: 1.2rem;
+}
+
 /*# sourceMappingURL=style.css.map */
