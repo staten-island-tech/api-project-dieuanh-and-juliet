@@ -7,7 +7,7 @@ const listen = function () {
     const searchQuery = async function () {
       try {
         const response = await fetch(
-          "https://api.nytimes.com/svc/books/v3/reviews.json?title=${searchParams}&api-key=IjOw569tP2k0fNoFgXAAiEG4R2g1C3fm"
+          `https://api.nytimes.com/svc/books/v3/reviews.json?title=${searchParams}&api-key=IjOw569tP2k0fNoFgXAAiEG4R2g1C3fm`
         );
         const data = await response.json();
         console.log(data);
