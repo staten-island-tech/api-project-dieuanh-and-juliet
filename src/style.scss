@@ -38,16 +38,6 @@ body {
   color: white;
 }
 
-// Styles the search box
-.topnav input[type="text"] {
-  float: right;
-  padding: 6px;
-  border: none;
-  margin-top: 8px;
-  margin-right: 16px;
-  font-size: 17px;
-}
-
 // Stacks the links and search bar when the screen is less than 600px wide,
 @media screen and (max-width: 600px) {
   .topnav a,
