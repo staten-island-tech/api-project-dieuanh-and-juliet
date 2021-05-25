@@ -22,7 +22,7 @@ const listen = function () {
               <h3 class="name">${book.book_title}</h3>
               <h4 class="author">Written By: ${book.book_author}</h4>
               <h4 class="description">Description: ${book.summary}</h4>
-              <h4 class="url">URL: ${book.url}</h4>
+              <h4 class="url">Find the Review Here: ${book.url}</h4>
               `
           );
         });

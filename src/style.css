@@ -104,19 +104,26 @@ body {
 .name {
   display: flex;
   justify-content: center;
-  font-size: 1.5rem;
+  font-size: 1.7rem;
+  text-transform: uppercase;
 }
 
 .author {
   display: flex;
   justify-content: center;
-  font-size: 1.2rem;
+  font-size: 1.5rem;
 }
 
 .description {
   display: flex;
   justify-content: center;
-  font-size: 1.2rem;
+  font-size: 1.5rem;
+}
+
+.url {
+  display: flex;
+  justify-content: center;
+  font-size: 1.5rem;
 }
 
 /*# sourceMappingURL=style.css.map */
