@@ -19,9 +19,9 @@ const listen = function () {
           DOMSelectors.grid.insertAdjacentHTML(
             "beforeend",
             `<div class="book-info">
-            <h3 class="name">${book.book_title}</h3>
-            <h4 class="author">Written By: ${book.book_author}</h4>
-            <h4 class="description">Description: ${book.summary}</h4>`
+              <h3 class="name">${book.book_title}</h3>
+              <h4 class="author">Written By: ${book.book_author}</h4>
+              <h4 class="description">Description: ${book.summary}</h4>`
           );
         });
       } catch (error) {
