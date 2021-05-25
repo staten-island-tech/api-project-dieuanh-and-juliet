@@ -21,7 +21,9 @@ const listen = function () {
             `<div class="book-info">
               <h3 class="name">${book.book_title}</h3>
               <h4 class="author">Written By: ${book.book_author}</h4>
-              <h4 class="description">Description: ${book.summary}</h4>`
+              <h4 class="description">Description: ${book.summary}</h4>
+              <h4 class="url">URL: ${book.url}</h4>
+              `
           );
         });
       } catch (error) {
